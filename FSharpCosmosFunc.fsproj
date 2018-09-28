@@ -1,9 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <Content Include="host.json" />
     <Content Include="local.settings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
